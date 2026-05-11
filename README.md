@@ -11,3 +11,5 @@ Artinya kedua program tersebut (baik yang mengirim pesan maupun yang menerima pe
     - Subscriber perlu tahu dari mana harus mengambil atau mendengarkan pesan.
 
     Karena keduanya menggunakan URL yang sama, mereka "bertemu" di broker yang sama (dalam hal ini RabbitMQ yang berjalan secara lokal di komputer kamu). Jika URL-nya berbeda (misalnya host atau port-nya beda), maka subscriber tidak akan pernah menerima pesan yang dikirim oleh publisher karena mereka berada di jalur komunikasi yang berbeda.
+
+![alt text](image.png)
